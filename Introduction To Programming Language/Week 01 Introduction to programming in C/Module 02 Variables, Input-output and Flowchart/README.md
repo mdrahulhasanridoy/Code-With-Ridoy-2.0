@@ -59,3 +59,19 @@ Who to write varibales names :
 
 > Input/output functions
 
+```
+//Description: This is a simple program to take input from the user and print it on the screen.
+
+#include<stdio.h> //This is a header file
+int main() //This is the main function
+{
+    //Here we write the code
+    //write input statement
+
+    int a; //This is a variable declaration
+    printf("Enter a number: ");//This is a output statement
+    scanf("%d", &a);//This is a input statement
+
+    printf("The variable of a is: %d", a);//This is a output statement
+    return 0;//This is a return statement
+```
