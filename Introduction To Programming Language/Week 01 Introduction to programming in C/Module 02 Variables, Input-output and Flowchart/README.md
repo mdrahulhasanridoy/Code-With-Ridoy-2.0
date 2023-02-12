@@ -75,3 +75,17 @@ int main() //This is the main function
     printf("The variable of a is: %d", a);//This is a output statement
     return 0;//This is a return statement
 ```
+Question : What is formet ispesifire ?
+
+~ learn about format specifiers in C
+
+> C Processing - Operators
+
+Why we use scanf ?
+
+> C Program : Find the area of a circle
+
+~ learn about scanf system in details
+
+~ learn about .o file
+
