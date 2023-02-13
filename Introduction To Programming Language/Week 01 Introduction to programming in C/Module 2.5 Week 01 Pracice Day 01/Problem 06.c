@@ -11,7 +11,7 @@ int main()
     //Take integer value as input
     printf("Enter a integer value: ");
     int a;
-    scanf("%d%*c",&a);//%*c is used to ignore the % sign
+    scanf("%d%%",&a);//%*c is used to ignore the % sign
 
     //Print that value
     printf("%d",a);
