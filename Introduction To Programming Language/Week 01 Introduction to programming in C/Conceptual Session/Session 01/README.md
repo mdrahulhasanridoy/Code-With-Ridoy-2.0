@@ -27,4 +27,6 @@ int main()
     return 0;
 }
 ```
+%d and %i are same
+
 
