@@ -34,3 +34,7 @@ int main()
 //Then we have printed the message "Enter the third integer: " and scanned the value of c.
 //Then we have printed the sum of three integers.
 //The output will be the sum of three integers.
+
+// integer + integer = integer
+// integer + float = float
+// float + float = float
