@@ -1,4 +1,3 @@
-
 How to install VS code for C
 
 Find the process from google
