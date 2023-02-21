@@ -7,3 +7,4 @@
 
 ![Big_Small_Equal](https://user-images.githubusercontent.com/99040899/219435093-3d7d8632-617b-4052-b8f0-3636dad5c1f7.svg)
 
+~ What is corner case ?
