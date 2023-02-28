@@ -56,5 +56,8 @@ Syntax:
 ```mermaid
 graph LR
 A[Start] --> B[/Input n/]
-B --> id1C[ n > 1 ]
-id1C --> |No|D[/print n/] --> E[End]
+B --> C{ n > 1 }
+C --> |No|D[/print n/] --> E[End]
+C --> |Yes| --> D{ n % 2 = 0 ? }
+D --> |Yes|id1F[n = n / 2]
+D --> |No|id2F[n = 3 * n + 1]
