@@ -17,9 +17,44 @@ Question 2: Draw a flowchart sum 1+2+3+.....+N using for loop in marmaid.
 ```mermaid
 graph LR
 A[Start] --> B[/Input N/]
-B --> id1[ i = 1 ] --> id2[ sum =0 ] --> C{i <= N ? }
+B --> id1[ i = 1 ] --> id2[ sum = 0 ] --> C{i <= N ? }
 C --> |Yes|id3[sum = sum + i] --> id4[i++] --> C
 C --> |NO|D[/Print sum/] --> E[End]
 ```
+### While Loop
 
-```
+Syntax: 
+    
+    ```c
+    while(condition){
+        //statements
+    }
+    ```
+i++ means i = i + 1
+i-- means i = i - 1
+increment and decrement operator
+
+
+initialization
+while(condition){
+    //statements
+    increment/decrement
+}
+
+### for loop
+
+Syntax: 
+    
+    ```c
+    for(initialization; condition; increment/decrement){
+        //statements
+    }
+    ```
+
+### Comparison between while loop and for loop
+
+```mermaid
+graph LR
+A[Start] --> B[/Input n/]
+B --> id1C[ n > 1 ]
+id1C --> |No|D[/print n/] --> E[End]
