@@ -58,6 +58,10 @@ graph LR
 A[Start] --> B[/Input n/]
 B --> C{ n > 1 }
 C --> |No|D[/print n/] --> E[End]
-C --> |Yes| --> D{ n % 2 = 0 ? }
-D --> |Yes|id1F[n = n / 2]
-D --> |No|id2F[n = 3 * n + 1]
+C --> |Yes|F{ n % 2 = 0 ? }
+F --> |Yes|id1[ n = n / 2 ]
+F --> |No|id2[ n = 3 * n + 1 ]
+id1  --> |Print|id3(( ))
+id2  --> |Print|id3
+id3  --> |Print|C
+
