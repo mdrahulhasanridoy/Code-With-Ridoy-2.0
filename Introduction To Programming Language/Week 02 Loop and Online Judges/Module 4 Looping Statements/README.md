@@ -12,3 +12,9 @@ D --> |NO|F[/Print Hello/]
 F --> id2[ i++] --> D
 
 ```
+Question 2: Draw a flowchart sum 1+2+3+.....+N using for loop in marmaid.
+
+```mermaid
+graph LR
+A[Start] --> B[/Input N/]
+B --> id1[ i = 1 ] --> id2[ sum =0 ] --> C{i <= N ? } 
