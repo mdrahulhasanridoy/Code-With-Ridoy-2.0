@@ -53,6 +53,7 @@ Syntax:
 
 ### Comparison between while loop and for loop
 
+
 ```mermaid
 graph LR
 A[Start] --> B[/Input n/]
@@ -64,4 +65,4 @@ F --> |No|id2[ n = 3 * n + 1 ]
 id1  --> |Print|id3(( ))
 id2  --> |Print|id3
 id3  --> |Print|C
-
+```
