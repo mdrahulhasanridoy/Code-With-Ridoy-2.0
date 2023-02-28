@@ -2,9 +2,13 @@
 
 Question 1: Draw a flowchart to print "Hello World" 10 times using for loop in marmaid.
 
+
 ```mermaid
-graph LR
-A[Start] --> B[for i=1 to 10]
-B --> C[print "Hello World"]
-C --> D[End]
+graph TD
+A[Start] --> B[/Input N/]
+B --> id1[ i = 0 ] --> D{i == N ? }
+D --> |Yes|E[End]
+D --> |NO|F[/Print Hello/]
+F --> id2[ i++] --> D
+
 ```
