@@ -1,10 +1,10 @@
 #### Looping Statements
 
+Question 1: Draw a flowchart to print "Hello World" 10 times using for loop in marmaid.
 
-
-```marmaid
+```mermaid
 graph LR
-A[Looping Statements] --> B(For Loop)
-A --> C(While Loop)
-A --> D(Do While Loop)
+A[Start] --> B[for i=1 to 10]
+B --> C[print "Hello World"]
+C --> D[End]
 ```
