@@ -1,10 +1,20 @@
 
 ## Branching Statements
 
-![Even Or Odd](https://user-images.githubusercontent.com/99040899/219264738-e15b6ed4-3d57-4fa6-acb1-c96073cf553b.svg)
+```mermaid
+graph LR
+A[Start] --> B[/Input x/] --> C{ x % 2 == 0 } --> |Yes|D[/Print Even/] --> id1(( ))
+C --> |NO|E[/Print Odd/] --> id1
+id1 --> F[End]
+```
 
 ## if - else
 
-![Big_Small_Equal](https://user-images.githubusercontent.com/99040899/219435093-3d7d8632-617b-4052-b8f0-3636dad5c1f7.svg)
-
+```mermaid
+graph LR
+A[Start] --> B[/Input x/] --> C{ x > y } --> |Yes|D[/x is large/] --> id1(( ))
+C --> |NO|E{ x < y } --> |Yes|F[/y is large/] --> id1
+E  --> |No|G[/Equal/] --> id1
+id1 --> H[End]
+```
 ~ What is corner case ?

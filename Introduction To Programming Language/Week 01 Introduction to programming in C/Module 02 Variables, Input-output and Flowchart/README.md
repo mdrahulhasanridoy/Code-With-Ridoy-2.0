@@ -11,13 +11,18 @@ Example :
 > Flow Chart
 
 Sum 2 numbers flow chart
-
-![sum](https://user-images.githubusercontent.com/99040899/218005901-bc704600-1481-4e1e-afd3-f4159a174587.svg)
+```mermaid
+graph LR
+A[Start] --> B[/Input x, y/]
+B --> id1[ S = x + y ] --> C[/Print s/] --> D[End]
+```
 
 Average flow chart
-
-![Average](https://user-images.githubusercontent.com/99040899/218011317-6637a531-6e7f-4340-b7aa-e35fa89d743c.svg)
-
+```mermaid
+graph LR
+A[Start] --> B[/Input x, y, z/]
+B --> id1[ S = x + y + z ] --> id2[ avg = s / 3 ] --> C[/Print avg/] --> D[End]
+```
 > Variables and Data Types
 
 ~ learn about variables
