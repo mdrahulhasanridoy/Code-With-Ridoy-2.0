@@ -3,7 +3,7 @@
 //Even number: n/2
 //Odd number: 3*n+1
 //Author: Md. Rahul Hasan Ridoy
-//Date: 29/02/2023
+//Date: 01/03/2023
 
 #include<stdio.h>
 int main()
