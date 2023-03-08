@@ -45,3 +45,16 @@ input: 5
 | 4 | 80 | 260 |
 | 5 | 90 | 350 |
 
+Question 2: You have n chocolates. If you give 4 packets to shopkeeper, he will give you 1 chocolate in return. How many chocolates you can get from shopkeeper? Also, how many chocolates you will have at the end?
+Draw the flowchart and write the program in C & Show manual tracing.
+
+~ Flowchart ~
+
+```mermaid
+graph LR
+A[Start] --> B[/Input n/]
+B --> C[/chocolate = n; pack = n/]
+C --> D{pack >= 4}
+D --> |Yes| id1[chocolate += pack/4] --> id2[pack = pack/4 + pack%4]
+D --> |No| E[/Print chocolate/]
+E --> F[End]
