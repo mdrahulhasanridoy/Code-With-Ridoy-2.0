@@ -53,8 +53,5 @@ Draw the flowchart and write the program in C & Show manual tracing.
 ```mermaid
 graph LR
 A[Start] --> B[/Input n/]
-B --> C[/chocolate = n; pack = n/]
-C --> D{pack >= 4}
-D --> |Yes| id1[chocolate += pack/4] --> id2[pack = pack/4 + pack%4]
-D --> |No| E[/Print chocolate/]
-E --> F[End]
+
+```
